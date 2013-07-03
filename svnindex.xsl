@@ -26,7 +26,6 @@
           <xsl:apply-templates/>
         </div>
         <!--<div class="footer">
-          <xsl:text>Powered by </xsl:text>
           <xsl:element name="a">
             <xsl:attribute name="href">
               <xsl:value-of select="@href"/>

@@ -4,6 +4,7 @@
 body{
   margin: 0;
   padding: 0;
+
   font-size: 100%;
   font-family: Arial, Verdana, Helvetica, sans-serif;
   color: #3f3f3f;
@@ -18,8 +19,8 @@ a:hover {
   text-decoration: underline;
 }
 
-.svn {
-  margin: 3em;
+.svn, .footer {
+  margin: 50px;
 }
 
 .rev {
@@ -31,19 +32,9 @@ a:hover {
   padding: 3px 3px 18px 3px;
 }
 
-.updir {
+.updir, .dir, .file {
   padding: 3px;
-  margin-left: 2em;
-}
-
-.file {
-  padding: 3px;
-  margin-left: 2em;
-}
-
-.dir {
-  padding: 3px;
-  margin-left: 2em;
+  margin-left: 30px;
 }
 
 .updir a {
@@ -59,6 +50,8 @@ a:hover {
 }
 
 .footer {
+  padding: 3px;
+  text-align: right;
   clear: both;
   font-size: 60%;
 }
